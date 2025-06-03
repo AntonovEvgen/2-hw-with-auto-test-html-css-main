@@ -5,82 +5,148 @@
     /* Свойства для сброса начальных стилей элементов */
 }
 
-body {}
+body {
+    font-family: "Inter", sans-serif;
+}
 
 header {
     /* Стили для хедера */
+    background: #2965f1;
+    padding: 23px 0;
+
 }
 
 header span {
     /* Стили для текста в хедере IT-INCUBATOR */
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
 }
 
 .main-section {
     /* Стили для первой секции */
+    background: #fafaff;
 }
 
 .main-title {
     /* Стили для заголовка в первой секции */
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    padding: 20px 0;
 }
 
 .main-text {
     /* Стили для текста в первой секции */
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
 }
 
 .main-image {
     /* Стили для изображения в первой секции */
+    padding-bottom: 356px;
 }
 
 
 .about-section {
     /* Стили для второй секции */
+    padding: 100px;
 }
 
 select {
     /* Стили для выпадающего списка */
+    width: 150px;
+    height: 36px;
+    padding: 8px 0 8px 12px;
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    padding-bottom: 25px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
+    list-style-image: url(./image/solar_map-arrow-up-bold.svg);
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
 }
 
 .label {
     /* Стили для подписей чекбоксов */
+    width: 475px;
+    height: 19px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 4px;
 }
 
 .text-field {
     /* Стили для односточного поля ввода текста */
+    width: 330px;
+    height: 36px;
+    margin-bottom: 60px;
 }
 
 .btn {
     /* Стили для кнопки */
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background: #2965f1;
 }
 
 .line {
     /* Стили для линии */
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 1440px;
+    height: 0px;
+    margin-bottom: 60px;
 }
 
 table {
     /* Стили для таблицы */
+    border-collapse: collapse;
+    width: 300px;
+    padding-bottom: 100px;
+
 }
 
 th,
 td {
     /* Стили для ячеек таблицы */
+    border: 1px solid #95a1bb;
+    height: 40px;
+    text-align: center;
+
 }
 
 footer {
     /* Стили для футера */
+    background: rgba(163, 167, 255, 0.3);
+    padding: 26px 0 26px 1px;
 }
 
 .footer-link {
     /* Стили для футера */
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
 }
