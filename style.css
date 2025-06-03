@@ -11,9 +11,8 @@ body {
 
 header {
     /* Стили для хедера */
-    background: #2965f1;
     padding: 23px 0;
-
+    background: #2965f1;
 }
 
 header span {
